@@ -34,9 +34,9 @@
 
 # Price function determining amount of output conversion token for input token.
 
-
-
-
+# EQUATION 
+# yOutput = (997 * xInput * (yReserves)) / (xReserves + xInput) / 1000;
+  Liquidity reserves of both tokens. 
 
 
 ![Screenshot from 2022-09-05 16-43-18](https://user-images.githubusercontent.com/3880512/188438822-884da94f-7ea2-4102-94cb-61438935d713.png)
