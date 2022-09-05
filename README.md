@@ -1,4 +1,12 @@
 # DEX 
+
+
+
+![Screenshot from 2022-09-05 09-23-04](https://user-images.githubusercontent.com/3880512/188358181-ff8c90a0-deaf-4704-991a-e3c444466824.png)
+
+
+
+
 ![Screenshot from 2022-09-05 08-47-51](https://user-images.githubusercontent.com/3880512/188354396-ab95b885-31e2-4292-ae5c-4742316d94d9.png)
 
 
