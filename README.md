@@ -88,14 +88,14 @@ Algorithm
 1)Swap Axies to Eth
 
 
-2)Swap same amnount of Eth to Axies from different exchange.
+2)Swap same amount of Eth to Axies from different exchange.
 
 
 
 Repeat this couple of times to increase your current token.
 
 
-Pracitcally swapping is done across two different exchanges.
+Practically swapping is done across two different exchanges.
 
 
 
