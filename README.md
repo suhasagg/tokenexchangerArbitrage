@@ -51,7 +51,7 @@
 ![Screenshot from 2022-09-05 16-44-04](https://user-images.githubusercontent.com/3880512/188438864-ff957298-e175-4547-8ef8-0061b97d41d8.png)
 
 
-#Slippage algorithm - for same amount of axie consecutive ethereum outputted is slightly slopped/less, due to change in reserves.  
+#Slippage algorithm - for same amount of axie consecutive ethereum outputted is slightly slipped/less, due to change in reserves.  
 
 
 
