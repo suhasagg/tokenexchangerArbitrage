@@ -79,15 +79,24 @@
 
 
 
-#133.065 Axies get converted to 136.9639 tapping diffference in exchange rates.
-Algorithm -
+#   133.065 Axies get converted to 136.9639 tapping diffference in exchange rates.
+
+
+Algorithm 
+
 
 1)Swap Axies to Eth
+
+
 2)Swap same amnount of Eth to Axies from different exchange.
+
+
 
 Repeat this couple of times to increase your current token.
 
+
 Pracitcally swapping is done across two different exchanges.
+
 
 
 ![Screenshot from 2022-09-05 18-31-05](https://user-images.githubusercontent.com/3880512/188456288-f4985dbf-bff4-4849-be36-b24d9c69014d.png)
