@@ -121,6 +121,58 @@ Practically swapping is done across two different exchanges.
 ![Screenshot_20220720-055125](https://user-images.githubusercontent.com/3880512/187183076-e7a14f25-f227-49f2-9abb-fb3858b46951.png)
 
 
+A simple AMM in Cairo -
+
+Reference - 
+https://starknet.io/docs/0.10.0/hello_cairo/amm.html#
+
+
+let’s move on to the interesting part of the AMM: exchanging tokens. Say that a user wants to get token_b in exchange for token_a of some specified amount (token_a_amount). Let’s denote the amount of tokens they will get by token_b_amount. In the equations below we let:
+
+a and b denote the amounts of token_a and token_b the user swaps,
+
+x and y denote the current balances of token_a and token_b in the AMM (that is, AmmState.token_a_balance and AmmState.token_b_balance).
+
+The AMM formula states that the value of token_a_balance * token_b_balance (that is, x * y) should be preserved. So we have:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mo stretchy="false">(</mo>
+  <mi>x</mi>
+  <mo>+</mo>
+  <mi>a</mi>
+  <mo stretchy="false">)</mo>
+  <mo>&#x22C5;</mo>
+  <mo stretchy="false">(</mo>
+  <mi>y</mi>
+  <mo>&#x2212;</mo>
+  <mi>b</mi>
+  <mo stretchy="false">)</mo>
+  <mo>=</mo>
+  <mi>x</mi>
+  <mo>&#x22C5;</mo>
+  <mi>y</mi>
+  <mo>.</mo>
+</math>
+
+Let’s isolate b (as the rest of the values are known):
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>b</mi>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mi>y</mi>
+      <mo>&#x22C5;</mo>
+      <mi>a</mi>
+    </mrow>
+    <mrow>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>a</mi>
+    </mrow>
+  </mfrac>
+  <mo>.</mo>
+</math>
 
 
 
