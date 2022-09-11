@@ -135,44 +135,11 @@ x and y denote the current balances of token_a and token_b in the AMM (that is, 
 
 The AMM formula states that the value of token_a_balance * token_b_balance (that is, x * y) should be preserved. So we have:
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mo stretchy="false">(</mo>
-  <mi>x</mi>
-  <mo>+</mo>
-  <mi>a</mi>
-  <mo stretchy="false">)</mo>
-  <mo>&#x22C5;</mo>
-  <mo stretchy="false">(</mo>
-  <mi>y</mi>
-  <mo>&#x2212;</mo>
-  <mi>b</mi>
-  <mo stretchy="false">)</mo>
-  <mo>=</mo>
-  <mi>x</mi>
-  <mo>&#x22C5;</mo>
-  <mi>y</mi>
-  <mo>.</mo>
-</math>
+(x+a).(y-b) = x.y
 
 Let’s isolate b (as the rest of the values are known):
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mi>b</mi>
-  <mo>=</mo>
-  <mfrac>
-    <mrow>
-      <mi>y</mi>
-      <mo>&#x22C5;</mo>
-      <mi>a</mi>
-    </mrow>
-    <mrow>
-      <mi>x</mi>
-      <mo>+</mo>
-      <mi>a</mi>
-    </mrow>
-  </mfrac>
-  <mo>.</mo>
-</math>
+b = y.a/(x+a)
 
 
 
