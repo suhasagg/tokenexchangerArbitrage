@@ -121,7 +121,7 @@ Practically swapping is done across two different exchanges.
 ![Screenshot_20220720-055125](https://user-images.githubusercontent.com/3880512/187183076-e7a14f25-f227-49f2-9abb-fb3858b46951.png)
 
 
-A simple AMM in Cairo -
+A simple AMM in Cairo to reduce slippage -
 
 Reference - 
 https://starknet.io/docs/0.10.0/hello_cairo/amm.html#
