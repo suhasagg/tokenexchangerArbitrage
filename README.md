@@ -39,6 +39,21 @@
 # yOutput = (997 * xInput * (yReserves)) / (xReserves + xInput) / 1000;
   Liquidity reserves of both tokens. 
 
+# Price function derivation 
+
+returns yOutput, or yDelta for xInput (or xDelta)
+     *  Price section for an understanding of the DEX's pricing model and for a price function to add to your contract.
+     *  we’re paying a 0.3% fee for additional deduction to DEX
+     *  let’s move on to the interesting part of the AMM: exchanging tokens. Say that a user wants to get token_b in exchange for token_a of some specified amount (token_a_amount). Let’s denote the amount of tokens they will get by token_b_amount. In the equations below we let:
+     *  a and b denote the amounts of token_a and token_b the user swaps,
+     *  x and y denote the current balances of token_a and token_b in the AMM (that is, AmmState.token_a_balance and AmmState.token_b_balance).
+     *  The AMM formula states that the value of token_a_balance * token_b_balance (that is, x * y) should be preserved. So we have:
+     *  (x+a).(y-b) = x.y
+     *  Let’s isolate b (as the rest of the values are known):
+     *  b = y.a/(x+a)
+     *  Output token price is determined using above.
+
+
 
 ![Screenshot from 2022-09-05 16-43-18](https://user-images.githubusercontent.com/3880512/188438822-884da94f-7ea2-4102-94cb-61438935d713.png)
 
